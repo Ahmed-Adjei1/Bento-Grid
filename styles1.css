@@ -1,0 +1,147 @@
+@media screen and (max-width: 375px) {
+  body {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+  }
+
+  .container {
+    grid-template-rows: 360px 200px 250px 370px 300px 200px 250px 300px;
+    grid-template-columns: 340px;
+    max-width: 100vw;
+    margin: 20px;
+  }
+
+  .two {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .two > h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+
+  .two > p {
+    margin-top: 5px;
+  }
+
+  .five {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .five > img {
+    width: 100%;
+  }
+
+  .five > h2 {
+    font-size: 23px;
+  }
+
+  .six {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .six > h2 {
+    font-size: 23px;
+  }
+
+  .six > img {
+    width: 68%;
+    height: 100%;
+  }
+
+  .three {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+
+  .three > h2 {
+    font-size: 23px;
+  }
+
+  .three > img {
+    height: 60%;
+    width: 100%;
+  }
+
+  .eight {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: block;
+    text-align: center;
+  }
+
+  .eight > img {
+    width: 70%;
+    height: 70%;
+  }
+
+  .eight > h2 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .seven {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .seven > h1 {
+    font-size: 30px;
+  }
+
+  .seven > p {
+    font-size: 14px;
+  }
+
+  .seven > img {
+    width: 50%;
+    margin-left: 0;
+  }
+
+  .one {
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .one > h1 {
+    font-size: 23px;
+  }
+
+  .one > img {
+    width: 60%;
+  }
+
+  .four {
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .four > h2 {
+    font-size: 25px;
+  }
+
+  .four > img {
+    height: 60%;
+    width: 70%;
+  }
+}
