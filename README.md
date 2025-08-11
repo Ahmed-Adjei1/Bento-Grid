@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![mobile](./Designs/mobile.PNG)
-![desktop](./Designs/desktop.PNG)
+![mobile](./Designs/mobile.png)
+![desktop](./Designs/desktop.png)
 
 
 ### Links
@@ -47,7 +47,8 @@ Users should be able to:
 - Grid.
 - Grid Placement.
 
-```.one {
+```
+.one {
   grid-row-start: 1;
   grid-row-end: 3;
   background-color: hsl(31, 66%, 93%);
